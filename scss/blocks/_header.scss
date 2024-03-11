@@ -1,0 +1,70 @@
+.header{
+   margin-top: 1vw;
+
+}
+.logo__img{
+    height: 1.5vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    
+}
+ul{
+    list-style-type: none;
+    margin-left: 30vw;
+    margin-top: -1.5vw;
+    
+}
+li{
+    display: inline;
+    margin-right: 6vw;
+    font-size: 1vw;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  }
+.button-log-in{
+    margin-left: 90vw;
+    margin-top: -1.5vw;
+    width: 1.8vw;
+    position: absolute;
+}
+.button-search{
+    margin-left: 95vw;
+    margin-top: -1.5vw;
+    width: 1.8vw;
+    position: absolute;
+}
+.odyvan{
+    margin-top: 3vw;
+}
+.text1{
+    font-family: "Cormorant", serif;
+    color: white;
+    margin-top: -33vw;
+    font-size: 5vw;
+    margin-left: 5vw;
+}
+.text2{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+.text3{
+    color: #BAE249;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+.strelka{
+    margin-left: 20vw;
+    margin-top: -2.2vw;
+    width: 6vw;
+}

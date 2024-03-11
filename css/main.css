@@ -1,0 +1,371 @@
+/* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+/*.poppins-regular {  font-family: "Poppins", sans-serif;  font-weight: 400;  font-style: normal; } 
+.poppins-medium {  font-family: "Poppins", sans-serif;  font-weight: 500;  font-style: normal; } 
+.poppins-bold {  font-family: "Poppins", sans-serif;  font-weight: 700;  font-style: normal; } 
+.poppins-extrabold {  font-family: "Poppins", sans-serif;  font-weight: 800;  font-style: normal; } 
+*/
+body {
+  background-color: #1D2F30;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  margin-top: 1vw;
+}
+
+.logo__img {
+  height: 1.5vw;
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 30vw;
+  margin-top: -1.5vw;
+}
+
+li {
+  display: inline;
+  margin-right: 6vw;
+  font-size: 1vw;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+.button-log-in {
+  margin-left: 90vw;
+  margin-top: -1.5vw;
+  width: 1.8vw;
+  position: absolute;
+}
+
+.button-search {
+  margin-left: 95vw;
+  margin-top: -1.5vw;
+  width: 1.8vw;
+  position: absolute;
+}
+
+.odyvan {
+  margin-top: 3vw;
+}
+
+.text1 {
+  font-family: "Cormorant", serif;
+  color: white;
+  margin-top: -33vw;
+  font-size: 5vw;
+  margin-left: 5vw;
+}
+
+.text2 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  margin-left: 5vw;
+  margin-top: 1vw;
+  font-size: 2vw;
+}
+
+.text3 {
+  color: #BAE249;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2vw;
+  margin-left: 5vw;
+  margin-top: 1vw;
+}
+
+.strelka {
+  margin-left: 20vw;
+  margin-top: -2.2vw;
+  width: 6vw;
+}
+
+.telo1 {
+  position: absolute;
+}
+.telo1 .flow3 {
+  margin-top: 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.telo1 .frame {
+  border: 0.2px solid black;
+  display: inline-block;
+  width: 20vw;
+  margin: 2.2vw;
+}
+.telo1 img {
+  width: 100%;
+}
+.telo1 .fig {
+  font-family: "Cormorant", serif;
+  color: white;
+  font-size: 2.3vw;
+  margin-top: 1.6vw;
+  margin-left: 1vw;
+}
+.telo1 .text4 {
+  font-family: "Open Sans", sans-serif;
+  color: #899D9D;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  margin-bottom: 8vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+.telo1 .button {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 2vw;
+  border: 1px solid #BAE249;
+  color: #BAE249;
+  text-align: center;
+  font-size: 1vw;
+  font-family: "Open Sans", sans-serif;
+}
+.telo1 .knop1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -10vw;
+  margin-left: 3vw;
+}
+.telo1 .knop2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5.9vw;
+  margin-left: 27.5vw;
+}
+.telo1 .knop3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5.8vw;
+  margin-left: 52vw;
+}
+.telo1 .knop4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -5.7vw;
+  margin-left: 76.5vw;
+}
+.telo1 .new {
+  font-family: "Cormorant", serif;
+  font-style: italic;
+  color: white;
+  font-size: 5vw;
+  margin-top: 10vw;
+  margin-left: 2.5vw;
+}
+.telo1 .kurische {
+  margin-left: 2.5vw;
+  margin-top: 3vw;
+  width: 67vw;
+}
+.telo1 .text5 {
+  font-family: "Cormorant", serif;
+  color: #1D2F30;
+  padding-bottom: 1.6vw;
+  font-size: 2vw;
+}
+.telo1 .text6 {
+  font-family: "Open Sans", sans-serif;
+  color: #506829;
+  font-size: 1.4vw;
+}
+.telo1 .text {
+  background-color: #BAE249;
+  margin-top: -40vw;
+  margin-left: 72vw;
+  margin-right: 4.5vw;
+  padding-top: 2.7vw;
+  padding-left: 2.7vw;
+  padding-right: 2.7vw;
+  padding-bottom: 1.7vw;
+}
+.telo1 .text7 {
+  font-family: "Open Sans", sans-serif;
+  color: #0B1919;
+  font-size: 1.5vw;
+  padding-top: 3vw;
+}
+.telo1 .strelka2 {
+  margin-top: -2vw;
+  width: 5vw;
+  margin-left: 12vw;
+}
+
+footer {
+  position: absolute;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120vw;
+}
+
+h1 {
+  font-family: "Cormorant", serif;
+  font-style: italic;
+  color: white;
+  font-size: 5vw;
+}
+
+.help {
+  margin-top: -30vw;
+  margin-left: 2vw;
+}
+
+.help1 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 1.4vw;
+  margin-top: 1.5vw;
+}
+
+.forma {
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+input {
+  font-family: "Open Sans", serif;
+  font-size: 1.4vw;
+  background-color: white;
+  padding: 0.5vw;
+  padding-right: 10vw;
+  margin-bottom: 1vw;
+}
+
+.otp {
+  position: absolute;
+  margin-top: -1.6vw;
+  margin-left: 2vw;
+  font-size: 1.6vw;
+  background-color: #BAE249;
+  color: #0B1919;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 3.8vw;
+  padding-right: 3.8vw;
+  font-family: "Open Sans", serif;
+}
+
+.koni {
+  margin-top: 7vw;
+  width: 15vw;
+  margin-left: 40vw;
+  margin-bottom: 3vw;
+}/*# sourceMappingURL=main.css.map */
